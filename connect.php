@@ -4,7 +4,7 @@ $lastName = $_POST['lastName'];
 $email = $_POST['email'];
 
 
-$conn = new mysqli('localhost','root',' ','test');
+$conn = new mysqli('localhost','root','','test');
 if($conn->connect_error){
     die('Connection Failed : '.$conn->connect_error);
     }else
@@ -17,4 +17,3 @@ if($conn->connect_error){
         $stmt ->close();
         $conn -> close();
     }
-?>
