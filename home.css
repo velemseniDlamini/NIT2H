@@ -160,6 +160,84 @@ footer p {
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
+  }
+  .text-center{
+    margin: 10px 0;
+  }
+  .card {
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Temperature Card */
+  .temp-card {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .temp-value {
+    font-size: 24px;
+    color: #dc3545;
+  }
+  
+  /* Humidity Card */
+  .humidity-card {
+    background-color: #d1ecf1;
+    border: 1px solid #bee5eb;
+  }
+  
+  .humidity-value {
+    font-size: 24px;
+    color: #17a2b8;
+  }
+  
+  /* Pie Chart Section */
+  .pie-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+  }
+ .all_social{
+    display: inline-block;
+    width: 20%;
+    gap:10px;
+    margin-left: 50px;
+    margin-top: 5px;
+    vertical-align: top;
+ }
+ .contact{
+    margin-top: 5px;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;   
+    /* gap: 20px; */
+    
+ }
+ .contact p,.address p,.all_social i{
+    margin-top: 20px;
+ }
+ .contact p,.address p,.all_social i:hover{
+    color: #fff;
+ }
+ .address{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 5px;
+ }
+ .social .fa-facebook,.fa-linkedin,.fa-square-instagram{
+    margin: 5px;
+    font-size: 25px;
+    color: #F26D2F;
+ }
+ .contact i{
+    color: #F26D2F;
+ }
+ .card-title{
+    text-align: center;
+ }
+=======
 /* Temperature Card */
 .temp-card {
   background-color: #f8d7da;
@@ -226,3 +304,4 @@ footer p {
 .card-title {
   text-align: center;
 }
+>>>>>>> 257ac0bc94a2db6ba6e3d0276c2c08681e71000f
